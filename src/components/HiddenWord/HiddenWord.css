@@ -1,0 +1,13 @@
+.word-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.correct-answered .letter-field{
+    background-color: lightgreen;
+}
+
+.partial-answered .letter-field{
+    background-color: yellow;
+}

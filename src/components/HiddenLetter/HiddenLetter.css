@@ -1,0 +1,47 @@
+.letter {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.letter-field {
+    display: inline-grid;
+    align-content: end;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin: 5px;
+    outline-width: 0 !important;
+}
+
+.letter-field:focus-within {
+    border-bottom: 4px gray solid;
+}
+
+.letter-field.correct-answered {
+    background-color: lightgreen;
+}
+
+.letter-field.partial-answered {
+    background-color: yellow;
+}
+
+
+
+.letter-input {
+    border: 0;
+    width: 40px;
+    height: 44px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color:  transparent;
+}
+
+.letter-input:focus {
+    outline: none;
+    caret-color: transparent;
+    border-bottom: 4px;
+}

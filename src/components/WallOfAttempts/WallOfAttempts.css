@@ -1,0 +1,16 @@
+.line {
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.word {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    height: 100px;
+}
+
+.word-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
